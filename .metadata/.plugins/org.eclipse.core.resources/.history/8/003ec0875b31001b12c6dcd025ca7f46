@@ -1,0 +1,19 @@
+package com.visionit.orangehrm.utilities;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class XLXSDataProvider {
+	// load the workbook
+	XSSFWorkbook wb;
+	// create a constructor of a class 
+	public XLXSDataProvider() {
+		try {
+	}
+		catch(Exception e) {
+			System.out.println("Excel file not found >>" +e.getMessage());
+			
+		}
+
+}
+
+}

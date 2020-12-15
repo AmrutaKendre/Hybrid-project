@@ -1,0 +1,9 @@
+package com.demoExtentReports;
+
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+public class OrangeHrmTest {
+	
+	public ExtentHtmlReporter htmlReporter ; 
+
+}

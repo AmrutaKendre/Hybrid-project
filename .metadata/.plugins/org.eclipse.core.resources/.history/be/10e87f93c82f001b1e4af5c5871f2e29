@@ -1,0 +1,13 @@
+package com.visionit.orangehrm.utilities;
+
+import java.io.File;
+
+public class ConfigDataProvider {
+	// constructor
+	
+	public ConfigDataProvider() {
+		//create a reference of config file
+		File fs = new File("./");
+	}
+
+}

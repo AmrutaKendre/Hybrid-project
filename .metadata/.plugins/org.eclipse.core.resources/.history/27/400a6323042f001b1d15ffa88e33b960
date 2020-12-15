@@ -1,0 +1,5 @@
+package com.visionit.orangehrm.pageObject;
+
+public class LoginPage {
+// create a web Element repository at page level
+}

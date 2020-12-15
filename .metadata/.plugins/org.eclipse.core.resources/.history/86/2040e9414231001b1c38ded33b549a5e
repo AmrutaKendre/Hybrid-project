@@ -1,0 +1,20 @@
+package pack1;
+
+public class A {
+	void test() {
+		System.out.println("ins test()method");
+	}
+	void test(int a) {
+		System.out.println("ins test()method");
+	}
+	void test(char ch) {
+		System.out.println("ins test()method");
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

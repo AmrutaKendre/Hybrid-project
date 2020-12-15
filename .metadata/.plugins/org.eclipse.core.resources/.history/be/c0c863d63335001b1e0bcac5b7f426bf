@@ -1,0 +1,7 @@
+package com.demoExtentReports;
+
+public class OrangeHrmTest {
+	
+	public ExtentHtmlReporter htmlReporter ; 
+
+}

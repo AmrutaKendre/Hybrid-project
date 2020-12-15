@@ -1,0 +1,10 @@
+package com.visionit.orangehrm.utilities;
+
+import org.openqa.selenium.WebElement;
+
+public class Helper {
+	public static void selectDropDownValue(WebElement ele,String visibleText) {
+		
+	}
+
+}

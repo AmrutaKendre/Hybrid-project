@@ -1,0 +1,28 @@
+package com.visionit.orangehrm.pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class HomePage {
+	
+	WebDriver driver;
+	@FindBy(id = "menu_admin_viewAdminModule")
+	WebElement admin;
+	
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	
+	}
+
+
+// menu_admin_UserManagement
+//menu_admin_viewSystemUsers
+//btnAdd
+//searchSystemUser_userType
+//systemUser_employeeName_empName
+//systemUser_userName

@@ -1,0 +1,42 @@
+package com.visionit.orangehrm.pageObject;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+
+public class AddUserPage {
+	@FindBy(id = "btnAdd")
+	@CacheLookup
+	WebElement btnAdd;
+	//DD--means Dropdown
+	@FindBy(id = "systemUser_userType")
+	@CacheLookup
+	WebElement SystemUseDD;
+	
+	@FindBy(id = "systemUser_employeeName_empName")
+	@CacheLookup
+	WebElement EmployeeName;
+	
+	
+	@FindBy(id = "systemUser_userName")
+	@CacheLookup
+	WebElement userName;
+	
+	@FindBy(id = "systemUser_status")
+	@CacheLookup
+	WebElement systemUser_statusDD;
+	
+	@FindBy(id = "systemUser_password")
+	@CacheLookup
+	WebElement user_Password;
+	
+	@FindBy(id = "systemUser_confirmPassword")
+	@CacheLookup
+	WebElement confirmPassword;
+	
+	@FindBy(id = "btnSave")
+	@CacheLookup
+	WebElement btnSave ;
+	
+
+}

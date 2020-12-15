@@ -1,0 +1,17 @@
+package com.visionit.orangehrm.pageObject;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+// create a web Element repository at page level
+	
+	// create a login constructor..constructor name and login name must be same.
+	public LoginPage(WebDriver driver) {
+		
+	}
+	
+	// This is the action method
+	public void loginOrangeHrm() {
+		
+	}
+}

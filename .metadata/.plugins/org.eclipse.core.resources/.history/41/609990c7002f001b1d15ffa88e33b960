@@ -1,0 +1,16 @@
+package com.visionit.orangehrm.testBase;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class TestBase {
+	
+	WebDriver driver = null;
+	
+	@BeforeMethod
+	public void setUp() {
+		
+		
+	}
+
+}

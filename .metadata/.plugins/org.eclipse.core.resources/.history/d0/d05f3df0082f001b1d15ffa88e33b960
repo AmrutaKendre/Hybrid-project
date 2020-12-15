@@ -1,0 +1,7 @@
+package com.visionit.orangehrm.testcases;
+
+import com.visionit.orangehrm.testBase.TestBase;
+
+public class Login_Tc_001 extends TestBase {
+
+}

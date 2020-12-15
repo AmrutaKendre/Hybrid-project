@@ -1,0 +1,14 @@
+package pack1;
+
+public class B {
+	
+	void test( int a, char ch) {
+		System.out.println("ins test(int a,char ch)");
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

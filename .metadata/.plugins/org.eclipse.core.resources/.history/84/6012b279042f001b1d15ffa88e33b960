@@ -1,0 +1,12 @@
+package com.visionit.orangehrm.pageObject;
+
+public class LoginPage {
+// create a web Element repository at page level
+	
+	// craete a login constructor
+	
+	// This is the action method
+	public void loginOrangeHrm() {
+		
+	}
+}

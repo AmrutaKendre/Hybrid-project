@@ -1,0 +1,9 @@
+package com.visionit.orangehrm.testBase;
+
+public class TestBase {
+	
+	public void setUp() {
+		
+	}
+
+}

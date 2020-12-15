@@ -1,0 +1,45 @@
+package com.visionit.orangehrm.pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class HomePage {
+	
+	WebDriver driver;
+	@FindBy(id = "menu_admin_viewAdminModule")
+	WebElement admin;
+	
+	@FindBy(id = "menu_admin_UserManagement")
+	WebElement userManagement;
+	
+	@FindBy(id = "menu_admin_viewSystemUsers")
+	WebElement user;
+	
+	@FindBy(id = "btnAdd")
+	WebElement btnAdd;
+	
+	@FindBy(id = "searchSystemUser_userType")
+	WebElement SystemUseDD;
+	
+	
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	
+	}
+
+
+
+//
+//
+//
+//systemUser_employeeName_empName
+//systemUser_userName
+//systemUser_status
+//systemUser_password
+//systemUser_confirmPassword
+//btnSave

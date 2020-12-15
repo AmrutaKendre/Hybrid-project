@@ -1,0 +1,20 @@
+package pack1;
+
+public class B {
+	
+	void test( int a, char ch) {
+		System.out.println("ins test(int a,char ch)");
+	}
+	void test(char ch, int a) {
+		System.out.println("ins test(char ch, int a)");
+	}
+
+	public static void main(String[] args) {
+		
+		B b =new B();
+		b.test(10,'A');
+		
+
+	}
+
+}

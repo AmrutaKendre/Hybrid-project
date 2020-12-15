@@ -1,0 +1,21 @@
+package com.visionit.orangehrm.testcases;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.visionit.orangehrm.testBase.TestBase;
+
+public class AddUserTC_002 extends TestBase{
+	@Test(dataProvider="getExcelData")
+	public void addNewUserTest(String user_Role,String empName,String userName,String status,String password,String confirmPassword) {
+		
+	}
+	@DataProvider
+	public Object[][] getExcelData(){
+		
+		Object[][] data= xlsxData.excelTestData("adduser");
+		return data;
+		
+
+  }
+}

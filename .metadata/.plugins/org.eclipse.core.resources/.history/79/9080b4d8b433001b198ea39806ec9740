@@ -1,0 +1,11 @@
+package com.visionit.orangehrm.pageObject;
+
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+	
+	WebDriver driver;
+
+	
+	}
+
