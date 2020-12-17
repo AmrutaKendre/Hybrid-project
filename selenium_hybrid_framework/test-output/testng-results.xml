@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10700" started-at="2020-12-12T08:20:43Z" finished-at="2020-12-12T08:20:54Z">
+  <suite name="Default suite" duration-ms="12455" started-at="2020-12-16T11:02:15Z" finished-at="2020-12-16T11:02:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10700" started-at="2020-12-12T08:20:43Z" finished-at="2020-12-12T08:20:54Z">
+    <test name="Default test" duration-ms="12455" started-at="2020-12-16T11:02:15Z" finished-at="2020-12-16T11:02:28Z">
       <class name="com.visionit.orangehrm.testcases.Login_Tc_001">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="setupSuite" is-config="true" duration-ms="354" started-at="2020-12-12T13:50:43Z" finished-at="2020-12-12T13:50:43Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="setupSuite" is-config="true" duration-ms="671" started-at="2020-12-16T16:32:15Z" finished-at="2020-12-16T16:32:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="setUp" is-config="true" duration-ms="5949" started-at="2020-12-12T13:50:43Z" finished-at="2020-12-12T13:50:49Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="setUp" is-config="true" duration-ms="7337" started-at="2020-12-16T16:32:15Z" finished-at="2020-12-16T16:32:23Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginOrangeHrmTest()[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="loginOrangeHrmTest" duration-ms="4146" started-at="2020-12-12T13:50:49Z" finished-at="2020-12-12T13:50:53Z">
+        <test-method status="PASS" signature="loginOrangeHrmTest()[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="loginOrangeHrmTest" duration-ms="4400" started-at="2020-12-16T16:32:23Z" finished-at="2020-12-16T16:32:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginOrangeHrmTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="599" started-at="2020-12-12T13:50:53Z" finished-at="2020-12-12T13:50:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.visionit.orangehrm.testcases.Login_Tc_001@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="718" started-at="2020-12-16T16:32:27Z" finished-at="2020-12-16T16:32:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
