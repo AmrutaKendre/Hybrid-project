@@ -3137,3 +3137,4 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-12-17 14:16:13,989 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\WPU Exam\eclipse-workspace\selenium_hybrid_framework\src\main\resources
 2020-12-17 14:16:13,991 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-12-17 14:16:13,991 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\WPU Exam\eclipse-workspace\selenium_hybrid_framework\src\test\resources
+2020-12-18 10:05:11,181 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
