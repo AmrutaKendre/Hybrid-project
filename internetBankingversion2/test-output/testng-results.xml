@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19988" started-at="2020-12-24T06:51:51Z" finished-at="2020-12-24T06:52:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19988" started-at="2020-12-24T06:51:51Z" finished-at="2020-12-24T06:52:11Z">
+      <class name="com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest@7e0babb1]" name="setup" is-config="true" duration-ms="13449" started-at="2020-12-24T12:21:51Z" finished-at="2020-12-24T12:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest@7e0babb1]" name="login" duration-ms="6522" started-at="2020-12-24T12:22:04Z" finished-at="2020-12-24T12:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

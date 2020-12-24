@@ -15,6 +15,15 @@ public class BrowserandNAvigationCommands {
 		System.out.println("Page Title is : "+driver.getTitle());
 		Thread.sleep(2000);
 		
+		String PageTitle = driver.getTitle();
+		if(PageTitle.equals("Google")) {
+			System.out.println("Page Title is correct");
+		}
+		else {
+			System.out.println("Page Title is incorrect");
+		}
+		
+	
 		// Navigating the browser with different url
 		driver.navigate().to("https://www.facebook.com");
 		System.out.println("Page Title is :"+driver.getTitle());
