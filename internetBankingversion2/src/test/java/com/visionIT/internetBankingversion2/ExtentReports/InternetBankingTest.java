@@ -35,17 +35,25 @@ public class InternetBankingTest {
 		WebElement UserID = driver.findElement(By.name("uid"));
 		WebElement Password = driver.findElement(By.name("password"));
 		
+		
 		//Entering text into UserID
 		UserID.sendKeys("mngr301183");
 		//Entering text into Password
 		Password.sendKeys("unageta");
-		// waiting the google search button to appear after entering the search keyword
-		Thread.sleep(4000);
+		
+		
 		// finding the webElement of google login button by name locator
 		WebElement loginbutton = driver.findElement(By.name("btnLogin"));
-		// clicking the google search button
+		// clicking the login button
 		loginbutton.click();
+		// waiting the login button to appear after entering the click
+		Thread.sleep(2000);
+		//clicking on New_Customer
 		
+		WebElement Add_New_Customer = driver.findElement(By.linkText("New Customer"));
+		Add_New_Customer.click();
+		// waiting the click
+		Thread.sleep(4000);
 	    driver.quit();
 		
 

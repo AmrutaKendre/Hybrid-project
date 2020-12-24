@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19988" started-at="2020-12-24T06:51:51Z" finished-at="2020-12-24T06:52:11Z">
+  <suite name="Default suite" duration-ms="18286" started-at="2020-12-24T11:10:47Z" finished-at="2020-12-24T11:11:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19988" started-at="2020-12-24T06:51:51Z" finished-at="2020-12-24T06:52:11Z">
+    <test name="Default test" duration-ms="18286" started-at="2020-12-24T11:10:47Z" finished-at="2020-12-24T11:11:05Z">
       <class name="com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest@7e0babb1]" name="setup" is-config="true" duration-ms="13449" started-at="2020-12-24T12:21:51Z" finished-at="2020-12-24T12:22:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest@7e0babb1]" name="setup" is-config="true" duration-ms="8923" started-at="2020-12-24T16:40:47Z" finished-at="2020-12-24T16:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest@7e0babb1]" name="login" duration-ms="6522" started-at="2020-12-24T12:22:04Z" finished-at="2020-12-24T12:22:11Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.visionIT.internetBankingversion2.ExtentReports.InternetBankingTest@7e0babb1]" name="login" duration-ms="9351" started-at="2020-12-24T16:40:55Z" finished-at="2020-12-24T16:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
